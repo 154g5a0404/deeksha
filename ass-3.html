@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="showform()">FOREGN STUDENT</button>
+<script type="text/javascript">
+function showform(){
+var x="<fieldset><legend>FOREIGN</legend><tr><td>Passport Number<td><input type='number'></tr><br></fieldset>";
+document.getElementById('hi').innerHTML=x;
+}
+</script>
+
+<input type="button" value="SUBMIT" onclick="showform()">
+<form>
+<p id="hi"></p>
+</form>
+</body>
+</html>
